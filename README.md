@@ -9,4 +9,8 @@ main idea is to utilize two different models, compare the results and try to ide
 The models we took into consideration are: Faster R-CNN and YOLO. In particular for the Faster R-CNN model two different backbones will be considered: Resnet-50-FPN v2 and MobileNet-v3-large. On the other hand, YOLOv8 has been utilized as a benchmark.
 
 ## Description of the files
-*_json.py : these files are used to write the information about the images in a csv file. The output are two files: *_categories.txt (lists of all the categories in the dataset) and *_images_info.csv (
+- *_json.py : these files are used to write the information about the images in a csv file. The output are two files: *_categories.txt (lists of all the categories in the dataset) and *_images_info.csv (information of the images present in the json file)
+- YOLOv8.ipynb: run this file to obtain the results for the YOLOv8 model
+- resnet.ipybb: run this file to obtain the results for the ResNET50 model
+- mobile_net.ipybn: run this file to obtain the results for the MobileNet model
+- mAP: to calculate the value of the mAP for the FasterRCNN models we used the following repository https://github.com/Cartucho/mAP
