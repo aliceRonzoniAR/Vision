@@ -1,7 +1,7 @@
 # Vision
 Project of Vision and Cognitive System - Università degli Studi di Padova 2023-2024
 
-## TITLE OF THE PROJECT
+## Optimizing Waste Management with Computer Vision: Object Detection and Recognition Techniques
 
 Nowadays, the problem of correctly dividing and separating waste is present in our society and needs to be solved.
 Thanks to object detection and recognition, two techniques that help us to detect and recognize objects, we can try to solve this problem. In this dissertation, the
